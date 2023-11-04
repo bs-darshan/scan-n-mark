@@ -26,24 +26,24 @@ The scan N mark is an Android application that enables students or participants 
    ```bash
    git clone https://github.com/bs-darshan/scan-n-mark.git
 
-#steps
+##steps
 Open the project in Android Studio.
 
    Configure Firebase:
         Create a Firebase project on the Firebase Console.
-        Add your google-services.json file to the project.
-        Set up Firebase Authentication and Realtime Database rules according to your requirements.
+        Add your google-services.json file to the project (or follow shortcut steps provided in android studio to connect to firebase).
+        Set up Firebase Authentication and Realtime Database rules according to your requirements(in firbase website).
 
    Build and run the project in Android Studio.
 
-#Usage
+##Usage
     Log in using your credentials provided by your institution.
 
- As an administrator:
+    As an administrator:
       Generate QR codes for each session using desired website or app.
       Access attendance reports and analytics.
-      the format of qr code should br in following format
-      #course name//date
+      The format of qr code should br in following format.
+      #course name//date.
       ex : Algorithms//29 july
       (case senstitive)
 
@@ -55,7 +55,7 @@ Configuration
     Configure Firebase:
         Add your Firebase project configuration to the google-services.json file.
 
-    Customize user roles and permissions as needed.
+    Customize the security of the QR code or as well as the firebase data structure
 
 Contributing
 
