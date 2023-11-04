@@ -1,9 +1,9 @@
 # scan-n-mark
-# Attendance Management System
+# Attendance Management System (android project) 
 
 ## Overview
 
-The Attendance Management System is an Android application that enables students or participants to mark their attendance by scanning QR codes. The project uses Firebase Realtime Database for storing attendance data. This README provides an overview of the project, its features, and instructions for setting it up.
+The scan N mark is an Android application that enables students or participants to mark their attendance by scanning QR codes. The project uses Firebase Realtime Database for storing attendance data. This README provides an overview of the project, its features, and instructions for setting it up.
 
 ## Features
 
@@ -25,3 +25,43 @@ The Attendance Management System is an Android application that enables students
 
    ```bash
    git clone https://github.com/bs-darshan/scan-n-mark.git
+
+    Open the project in Android Studio.
+
+    Configure Firebase:
+        Create a Firebase project on the Firebase Console.
+        Add your google-services.json file to the project.
+        Set up Firebase Authentication and Realtime Database rules according to your requirements.
+
+    Build and run the project in Android Studio.
+
+Usage
+
+    Register an account as a student or administrator.
+
+    Log in using your credentials.
+
+    As an administrator:
+        Create courses and schedule sessions.
+        Generate QR codes for each session.
+        Access attendance reports and analytics.
+
+    As a student:
+        Scan QR codes during sessions to mark your attendance.
+
+Configuration
+
+    Configure Firebase:
+        Add your Firebase project configuration to the google-services.json file.
+
+    Customize user roles and permissions as needed.
+
+Contributing
+
+If you'd like to contribute to this project, please follow these guidelines:
+
+    Fork the repository.
+    Create a new branch for your feature or bug fix.
+    Make your changes and commit them.
+    Push your changes to your fork.
+    Submit a pull request.
